@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class Garvity : MonoBehaviour
 {
     Rigidbody rb;
-    const float G = 0.006674f;
+    const float G = 0.06674f;
     public static List<Garvity> garvityObjectList;
     [SerializeField] bool planet = false;
     [SerializeField] int orbitSpeed = 1000;
